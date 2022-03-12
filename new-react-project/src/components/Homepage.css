@@ -1,0 +1,38 @@
+.header {
+    background-color:  #282c34;
+    margin-bottom: 75px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    padding: 100px;
+    max-width: 300px;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 150px;
+    align-items: baseline;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    max-width: 150px;
+    text-align: left;
+}
